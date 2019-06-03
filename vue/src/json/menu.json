@@ -1,0 +1,71 @@
+[
+    {
+        "sub": true,
+        "key": "system",
+        "title": "系统管理",
+        "icon": "appstore",
+        "permission": ["user.see", "group.see"],
+        "disabled": false,
+        "list": [
+            {
+                "sub": false,
+                "key": "user",
+                "title": "用户管理",
+                "icon": "",
+                "link": "User",
+                "disabled": false,
+                "permission": [
+                    "user.see"
+                ]
+            },
+            {
+                "sub": false,
+                "key": "group",
+                "title": "分组管理",
+                "icon": "",
+                "link": "Group",
+                "disabled": false,
+                "permission": [
+                    "group.see"
+                ]
+            }
+        ]
+    },
+    {
+        "sub": true,
+        "key": "logger",
+        "title": "日志系统",
+        "icon": "snippets",
+        "permission": [],
+        "disabled": false,
+        "list": [
+            {
+                "sub": false,
+                "key": "dashboard",
+                "title": "概览",
+                "icon": "",
+                "link": "home",
+                "disabled": false,
+                "permission": []
+            },
+            {
+                "sub": false,
+                "key": "account",
+                "title": "账号管理",
+                "icon": "",
+                "link": "home",
+                "disabled": false,
+                "permission": []
+            },
+            {
+                "sub": false,
+                "key": "app",
+                "title": "应用管理",
+                "icon": "",
+                "link": "home",
+                "disabled": false,
+                "permission": []
+            }
+        ]
+    }
+]
